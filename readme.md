@@ -28,7 +28,7 @@ Set-ExecutionPolicy unrestricted -Force
 
 #### RemoteSigned says run any script made locally but not downloaded from internet unless its digitally Signed
 
-## This Command will open up the current folder in explorer
+## This Command will open up the current folder in explorer or with the default program
 
 ```
 invoke-item .
@@ -91,3 +91,42 @@ Some of the PowerShell Profile e.g,
 > Even when I am executing my script in VScode or somewhere else It has some Powershell Profile
 
 ![AllProfiles](Images/AllProfiles.jpg)
+
+> A basic script file is a text file with .ps1 file extension
+
+- Use # to indicate comments
+
+![ScriptBasic](Images/ScriptBasic.jpg)
+
+### Another Example
+
+> It will create and Html file with the results and Also will add css to it
+
+![Another Example](Images/AnotherExample.png)
+
+### We can also pass parameters to the script
+
+![Parameters](Images/Parameters.png)
+
+> use Help Script Name and it will tell you the parameters the script is expecting
+
+![Help Parameters](Images/helpParameters.png)
+
+> Using IF Else
+
+![IfElse](Images/IfElse.png)
+
+> Enumeration
+
+#### Two ways to do it
+
+- ForEach-Object
+- For Each
+
+1. ForEach-Object
+![ForEach-Object](Images/ForEachObject.png)
+
+2. ForEach
+![ForEach](Images/ForEach.png)
+
+> In the ForEachObject way we can pipe the result to the end while we can't do the same in forEach 2nd Method
