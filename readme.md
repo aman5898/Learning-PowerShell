@@ -124,9 +124,63 @@ Some of the PowerShell Profile e.g,
 - For Each
 
 1. ForEach-Object
+
 ![ForEach-Object](Images/ForEachObject.png)
 
 2. ForEach
+
 ![ForEach](Images/ForEach.png)
 
 > In the ForEachObject way we can pipe the result to the end while we can't do the same in forEach 2nd Method
+
+### Array
+
+![Arrays](Images/Arrays.jpg)
+
+#### Array Operations
+
+![ArraysOperations1](Images/ArraysOperations1.png)
+
+![ArraysOperations2](Images/ArraysOperations2.png)
+
+### HashTables
+
+![HashTable1](Images/HashTable1.png)
+
+> Also, we can Update HashTable
+
+![HashTable2](Images/HashTable2.png)
+
+### We also have one ordered HashTable in PS
+
+### Splatting in HashTable
+
+![Splatting](Images/splatting.png)
+
+**Here we reference the variable using @**
+
+## Objects in Pipeline
+
+- Select
+- New 
+- [pscustomobject]
+
+### We also have try/catch in PS
+
+### With String Data Type we can have all the methods that we use in Java/C++
+
+### Same Goes for Date Data Type
+![DateDataType](Images/DateDataType.png)
+
+> Piping the Date variable with get-member and then with more can be done with other data types too
+
+### To see everything which is in date referenced variable we can have
+```
+$now = get-Date
+$now | select *
+$now.dayOfWeek
+```
+
+
+
+
