@@ -162,7 +162,7 @@ Some of the PowerShell Profile e.g,
 ## Objects in Pipeline
 
 - Select
-- New 
+- New
 - [pscustomobject]
 
 ### We also have try/catch in PS
@@ -170,11 +170,13 @@ Some of the PowerShell Profile e.g,
 ### With String Data Type we can have all the methods that we use in Java/C++
 
 ### Same Goes for Date Data Type
+
 ![DateDataType](Images/DateDataType.png)
 
 > Piping the Date variable with get-member and then with more can be done with other data types too
 
 ### To see everything which is in date referenced variable we can have
+
 ```
 $now = get-Date
 $now | select *
@@ -182,6 +184,7 @@ $now.dayOfWeek
 ```
 
 ### PS has a class call Math class or more directly its in dotnet
+
 ![MathClass](Images/MathClass.png)
 
 > To find all things in Math Class
@@ -192,10 +195,14 @@ $now.dayOfWeek
 
 ![MathMethods](Images/MathMethods.png)
 
+### We also have Powershell script that orchestrates or runs other powershell commands, functions and scripts
 
+### Things to learn further in PowerShell
 
+![More](Images/More.png)
 
-
-
+## Other resource
+- PowerShell.org
+- Http://bit.ly/PSUserGroups
 
 
