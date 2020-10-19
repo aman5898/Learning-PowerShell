@@ -181,6 +181,21 @@ $now | select *
 $now.dayOfWeek
 ```
 
+### PS has a class call Math class or more directly its in dotnet
+![MathClass](Images/MathClass.png)
+
+> To find all things in Math Class
+
+![MathClass](Images/MathMore.png)
+
+> To invoke methods
+
+![MathMethods](Images/MathMethods.png)
+
+
+
+
+
 
 
 
