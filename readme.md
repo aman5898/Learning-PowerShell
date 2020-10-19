@@ -23,7 +23,7 @@ Acess for Scripts to run
 ```
 Set-ExecutionPolicy RemoteSigned
                 or
-Set-ExecutionPolicy unrestricted -Force 
+Set-ExecutionPolicy unrestricted -Force
 ```
 
 #### RemoteSigned says run any script made locally but not downloaded from internet unless its digitally Signed
@@ -35,6 +35,7 @@ invoke-item .
 ```
 
 ### This will checkout the unblock checkbox on the file property downloaded via internet
+
 ```
 unblock-file filnameWithAddress
 ```
@@ -44,14 +45,16 @@ unblock-file filnameWithAddress
 - Scripts runs in their own scope
 
 ### Scopes
+
 - Global
-    - Powershell opens in this scope
+  - Powershell opens in this scope
 - Script
-    - Scrips runs in their own internal Scope
+  - Scrips runs in their own internal Scope
 - Private
 - Numbered Scops
 
 #### If follows Lexical Scoping
+
 We can create or write in only current scope
 
 #### We can use -Scope parameter in case a variable needs to declare in a particular scope.
@@ -64,7 +67,4 @@ We can create or write in only current scope
 help about-scopes
 ```
 
-![Logo](/images/Scopes.jpg)
-
-
-
+![Logo](images/Scopes.jpg)
