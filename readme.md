@@ -1,4 +1,4 @@
-# Resources to Help you
+## Resources to Help you
 
 ### PowerShell.org
 
@@ -49,7 +49,9 @@ unblock-file filnameWithAddress
 - Global
   - Powershell opens in this scope
 - Script
-  - Scrips runs in their own internal Scope
+  - Scrips runs in their own internal Scope.
+- Local
+  - The current scope. The local scope can be the global scope or any other scope.
 - Private
 - Numbered Scops
 
@@ -67,4 +69,25 @@ We can create or write in only current scope
 help about-scopes
 ```
 
-![Logo](Images/Scopes.jpg)
+![Scopes](Images/Scopes.jpg)
+
+### To get all the variables in the global scope, type:
+
+```
+Get-Variable -Scope global
+```
+
+### We can create a powershell profile to meet your needs as per Ide or different conditions
+
+It has
+
+- Hard Coded File Paths
+- You will have to create them
+
+Some of the PowerShell Profile e.g,
+
+![Profiles](Images/Profiles.jpg)
+
+> Even when I am executing my script in VScode or somewhere else It has some Powershell Profile
+
+![AllProfiles](Images/AllProfiles.jpg)
