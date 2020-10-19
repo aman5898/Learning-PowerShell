@@ -67,4 +67,4 @@ We can create or write in only current scope
 help about-scopes
 ```
 
-![Logo](images/Scopes.jpg)
+![Logo](Images/Scopes.jpg)
