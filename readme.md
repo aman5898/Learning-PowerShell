@@ -1,3 +1,15 @@
+## Difference Between Powershell and cmd
+
+1. ### PowerShell uses cmdlets, which are self-contained programming objects that expose the underlying administration options inside of Windows.
+
+2. ### PowerShell uses pipes to chain together cmdlets and share input/output data the same way as other shells, like bash in linux.
+3. ### One of the (many) neat functions of PowerShell is the ability to create aliases for different cmdlets. Aliases allow a user to configure their own names for different cmdlets or scripts, which makes it more straightforward for a user to switch back and forth between different shells: ‘ls’ is a linux bash command that displays directory objects, like the ‘dir’ command. In PowerShell, both ‘ls’ and ‘dir’ are an alias for the cmdlet ‘Get-ChildItem.’
+
+4. ### CMD is the older “shell” or “batch” language going back in some form (command.com) to the original DOS operating system.
+
+5. ### PowerShell is the new and vastly improved shell and programming language first made available as an add-on and now included (and now enabled) in the Windows operating systems.
+6. ### PowerShell passes and returns OBJECTS (structured data with methods, events, and properties) to other commands and returns these objects from most commands as well while CMD produces only text.
+
 ## Resources to Help you
 
 ### PowerShell.org
@@ -202,7 +214,6 @@ $now.dayOfWeek
 ![More](Images/More.png)
 
 ## Other resource
+
 - PowerShell.org
 - Http://bit.ly/PSUserGroups
-
-
